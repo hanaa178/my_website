@@ -1,0 +1,98 @@
+/* Reset & Fonts */
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+}
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Cairo', sans-serif;
+}
+{ margin: 0; padding: 0; box-sizing: border-box; }
+ body { font-family: 'Cairo', sans-serif; background: #f6f6f6; color: #333; direction: rtl; scroll-behavior: smooth; }
+/* Header */ header { background: #000; color: white; padding: 20px 0; text-align: center; }
+ .logo-img { width: 120px; height: auto; }
+  nav { display: flex; justify-content: center; gap: 35px; margin-top: 10px; flex-wrap: wrap; }
+   nav a { color: gold; text-decoration: none; font-weight: bold; font-size: 18px; transition: all 0.4s ease; display: flex; align-items: center; gap: 6px; }
+ nav a:hover { color: white; background: linear-gradient(45deg, gold, goldenrod); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+/* Hero Section */ .hero { padding: 60px 20px; text-align: center; background-size: cover; background-position: center; position: relative; color: white; }
+ .hero h1 { font-family: 'Scheherazade New', serif; font-size: 45px; color: gold; margin-bottom: 10px; text-shadow: 1px 1px 3px black; }
+.hero h2 { font-size: 22px; margin-bottom: 20px; }
+.hero p { font-size: 16px; max-width: 600px; margin: 0 auto 30px; }
+.hero button { background: linear-gradient(to right, gold, goldenrod); color: #fff; border: none; padding: 14px 30px; font-size: 17px; font-weight: bold; border-radius: 30px; cursor: pointer; box-shadow: 0 4px 15px rgba(218, 165, 32, 0.5); transition: all 0.3s ease; }
+ .hero button:hover { background: #111; color: gold; box-shadow: 0 0 15px goldenrod; transform: scale(1.05); }
+/* Section Titles */ .section-title { font-size: 32px; color: gold; text-align: center; margin: 40px 0 20px; font-family: 'Scheherazade New', serif; text-shadow: 1px 1px 3px #999; }
+/* Services */ .services-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; padding: 20px; max-width: 1200px; margin: auto; }
+.service { background: white; border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+.service:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); } 
+.service i { font-size: 35px; color: goldenrod; margin-bottom: 10px; }
+.service h3 { font-size: 20px; margin-bottom: 10px; color: #333; } 
+.service-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; margin-top: 10px; }
+.service-gallery img { width: 100%; border-radius: 8px; transition: transform 0.3s ease; }
+ .service-gallery img:hover { transform: scale(1.05); }
+/* Gallery */ .gallery-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; padding: 20px; max-width: 1000px; margin: auto; }
+.gallery-container img { width: 100%; border-radius: 10px; transition: transform 0.3s ease; }
+ .gallery-container img:hover { transform: scale(1.05); box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+/* Contact */ .contact-info { text-align: center; padding: 20px; font-size: 18px; }
+ .contact-info p { margin: 10px 0; }
+  .contact-info a { color: #333; text-decoration: none; }
+   .contact-info i { color: goldenrod; margin-left: 8px; }
+/* Video */ video { border-radius: 10px; margin-top: 10px; }
+/* Zoom effect on hover */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
+
+/* Gallery layout */
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+.photo-gallery img {
+  width: 23%;
+  border-radius: 8px;
+}
+
+/* Photographer credit */
+.photographer-credit {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Review stars section */
+.review-stars {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+.review-stars .stars {
+  font-size: 24px;
+  margin: 10px 0;
+  color: gold;
+}
+
+/* Map section */
+.map-section {
+  padding: 30px 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.map-section p {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
